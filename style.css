@@ -5,16 +5,22 @@ body {
 }
 
 
- img{
+img{
     border-radius: 20pt;
 }
 
-.center{
+.center img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.center p {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }
+
+li {font-size: 20pt;}
