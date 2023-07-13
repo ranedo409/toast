@@ -1,0 +1,20 @@
+body { 
+    background-color: #b7dcff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ img{
+    border-radius: 20pt;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
