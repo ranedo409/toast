@@ -5,11 +5,8 @@ body {
 }
 
 
-img{
-    border-radius: 20pt;
-}
-
 .center img{
+    border-radius: 20pt;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,6 +18,32 @@ img{
 
 h1 {
     text-align: center;
+    font-size: 60px;
 }
 
 li {font-size: 20pt;}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    background-color: rgb(208, 168, 235);
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topnav a:hover {
+    background-color: rgb(139, 99, 231);
+    color: rgb(255, 255, 255);
+}

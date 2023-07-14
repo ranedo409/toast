@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact info.html">Contact info</a>
-</nav>
+
+
 <head>
     <title>Contact info</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <ul>
-    <h1>Contact info</h1>
-    <li> Email:  HISS-AB1002@haileybury.com</li>
-    <li> Number: 676876794564547</li>
-    <li> Address: Somewhere S </li>
- </ul>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact info.html">Contact info</a>
+    </nav>
+    <h1> Contact</h1>
+    <div class="contact info">
+        <form action="mailto:do0906811@gmail.com" method="get">
+            <label>name</label><br>
+            <input type="text" name="name" id="name" />
+            <br><br>
+            <label>age</label><br>
+            <input name="age" type="number" />
+            <br><br>
+
+            <label> Message</label> <br>
+            <textarea name="body" rows="10" cols="35"></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
 </body>
