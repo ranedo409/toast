@@ -1,5 +1,5 @@
 body { 
-    background-color: #b7dcff;
+    background-color: #fdf8ff;
     display: flex;
     flex-direction: column;
 }
@@ -19,6 +19,7 @@ body {
 h1 {
     text-align: center;
     font-size: 60px;
+    color: #e2c3ff ;
 }
 
 li {font-size: 20pt;}
@@ -30,13 +31,13 @@ li {font-size: 20pt;}
 }
 
 .topnav {
-    background-color: rgb(208, 168, 235);
+    background-color: #e2c3ff;
     overflow: hidden;
 }
 
 .topnav a{
     float: left;
-    color: rgb(255, 255, 255);
+    color: #fdf5ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,6 +45,21 @@ li {font-size: 20pt;}
 }
 
 .topnav a:hover {
-    background-color: rgb(139, 99, 231);
+    background-color: #ddb8ff;
     color: rgb(255, 255, 255);
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: 0;
+    line-height: 0;
 }
