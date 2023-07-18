@@ -1,9 +1,14 @@
 body { 
-    background-color: #fdf8ff;
+    background-color: #faf4ff;
     display: flex;
     flex-direction: column;
+    background-image: url("https://cdn.wallpapersafari.com/29/71/3yvOlj.png");
 }
 
+p {
+    color: #e2c3ff;
+    font-family: 'Trebuchet MS';
+}
 
 .center img{
     border-radius: 20pt;
@@ -18,8 +23,41 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 60px;
-    color: #e2c3ff ;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 16px
+}
+
+
+.digitalheader {
+    background-color: #e2c3ff;
+    width: 18em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
+}
+
+.theader {
+    background-color: #e2c3ff;
+    width: 27em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
+}
+
+.wordd {
+    background-color: #e2c3ff;
+    width: 18em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
 }
 
 li {font-size: 20pt;}
@@ -45,7 +83,7 @@ li {font-size: 20pt;}
 }
 
 .topnav a:hover {
-    background-color: #ddb8ff;
+    background-color: #d5b5ff;
     color: rgb(255, 255, 255);
 }
 
@@ -55,11 +93,18 @@ li {font-size: 20pt;}
 
 .column {
     flex: 33.33%;
-    padding: 5px;
+    padding-bottom: 18em;
+    background: 50% 50% no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 img {
     display: block;
     margin: 0;
     line-height: 0;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    box-shadow: 20px 20px 8px #a39baa;
 }
